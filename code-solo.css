@@ -21,6 +21,8 @@
     padding: 5px;
     border: 2px solid black;
     background: orange;
+    display: flex; 
+   
 }
 
 /** Styling for the items of Sample 2  **/
@@ -30,4 +32,15 @@
     border: 2px solid black;
     background: violet;
 
+}
+
+
+.sample-1 {
+   display: flex;
+  justify-content: flex-start;
+}
+
+.sample-2 {
+   display: flex;
+   justify-content: space-between;
 }
